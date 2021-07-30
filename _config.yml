@@ -1,7 +1,7 @@
 # Site settings
-title: Boostcamp AI Summer 2021 # site title
+title: Rachel Lee | Prospective Data Scientist # site title
 description: >- # site description
-  Archiving projects, competition work, and daily reports from Boostcamp AI Summer 2021
+  Mainly archiving projects, competition work, and daily reports from Boostcamp AI Summer 2021
 lang: en-US # default lang
 timezone: Asia/Seoul # set your timezone
 # image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -12,7 +12,8 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Rachel Lee # author name
   bio: >- # tell to the world
-    
+    Welcome to my blog! I mainly use this to memo and archive what i learned about data science.
+    Feel free to explore and connect with me <a href="https://github.com/rachel318318" target="_blank" rel="noopener">@github</a> 
   username: rachel318318 # general username
   github: rachel318318 # github username
   #twitter: twitter_username # twitter username

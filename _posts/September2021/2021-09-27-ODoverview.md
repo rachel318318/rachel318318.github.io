@@ -79,14 +79,45 @@ $$Recall=\frac{TP}{TP+FN}=\frac{TP}{All\:Ground\:Truths}$$
 * 그래프 X-axis와 y-axis 각각에 Recall과 Precision 값을 입력한 것이 PR Curve
 
 <figure>
-<img src="/assets/img/Screen Shot 2021-09-27 at 3.11.13 PM.png">
+<img src="/assets/img/Screen Shot 2021-09-27 at 3.11.13 PM.png" width="500">
 <figcaption>Fig 5. PR Curve</figcaption>
 </figure>
 
 ##### AP (Average Precision)
 
 <figure>
-<img src="/assets/img/Screen Shot 2021-09-27 at 3.17.48 PM.png">
+<img src="/assets/img/Screen Shot 2021-09-27 at 3.17.48 PM.png" width="500">
 <figcaption>Fig 6. AP (Average Precision)</figcaption>
 </figure>
 
+* PR Curve에서 선을 그어 위와 같은 아래 면적을 구하면 그것이 AP가 된다
+* 0과 1 사이의 값을 가지게 된다
+
+##### mAP (Mean Average Precision)
+
+$$mAP=\frac{1}{n}\sum^{k=n}_{k=1}AP_k$$
+
+$$AP_k$$ = the AP of class k\
+n = the number of classes
+
+##### IOU (Intersection Over Union)
+
+$$IOU=\frac{overlapping\:region}{combined\:region}$$
+
+* bbox의 정확도를 측정
+* 예측한 bbox가 ground truth bbox와 얼마나 겹쳐지는가
+* percentage를 정해서 그 값보다 높게 나오면 인정
+* mAP와 함께 부여된다 (mAP50, mAP60...)
+
+### 속도
+
+* FPS (Frames Per Second)
+* FLOPs (Floating Point Operations)
+
+# Library
+
+* MMdetection
+
+* Detectron2
+* YOLOv5
+* EfficientDet

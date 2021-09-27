@@ -117,7 +117,12 @@ $$IOU=\frac{overlapping\:region}{combined\:region}$$
 # Library
 
 * MMdetection
-
+  * pytorch기반인 object detection 오픈소스
 * Detectron2
+  * Detectron2는 페이스북 AI 리서치의 라이브러리로 pytorch 기반의 Object detection과 segmentation의 알고리즘을 제공
 * YOLOv5
+  * COCO 데이터셋으로 사전 학습된 모델로 수천 시간의 연구와 개발에 걸쳐 발전된 Object Detection 모델
+  * Colab, kaggle, Docker, AWS, Google Cloud Platform 등 에서 오픈 소스를 제공
 * EfficientDet
+  * Google Research & Brain에서 연구한 모델로 EfficientNet을 응용해 만든 Object Detection 모델
+  * Tensorflow로 제공되는 EfficientDet을 사용할 수 있으며, 깃헙에 pytorch 기반으로 구현된 라이브러리 역시 존재
